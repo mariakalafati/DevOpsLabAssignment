@@ -1,0 +1,184 @@
+{
+    "teams": [
+        {
+            "name": "Barcelona",
+            "players": [
+                {"name": "Robert Lewandowski", "age": 35},
+                {"name": "Frenkie de Jong", "age": 26},
+                {"name": "Pedri", "age": 20},
+                {"name": "Gavi", "age": 19},
+                {"name": "Joao Felix", "age": 23},
+                {"name": "Ronald Araujo", "age": 24},
+                {"name": "Jules Kounde", "age": 24}
+            ]
+        },
+        {
+            "name": "Real Madrid",
+            "players": [
+                {"name": "Jude Bellingham", "age": 20},
+                {"name": "Vinicius Jr", "age": 23},
+                {"name": "Toni Kroos", "age": 33},
+                {"name": "Luka Modric", "age": 38},
+                {"name": "Eduardo Camavinga", "age": 20},
+                {"name": "Rodrygo", "age": 22},
+                {"name": "Federico Valverde", "age": 25}
+            ]
+        },
+        {
+            "name": "Atletico Madrid",
+            "players": [
+                {"name": "Antoine Griezmann", "age": 32},
+                {"name": "Alvaro Morata", "age": 31},
+                {"name": "Koke", "age": 31},
+                {"name": "Marcos Llorente", "age": 28},
+                {"name": "Saul Niguez", "age": 28},
+                {"name": "Thomas Lemar", "age": 28},
+                {"name": "Memphis Depay", "age": 29}
+            ]
+        },
+        {
+            "name": "Bayern Munich",
+            "players": [
+                {"name": "Harry Kane", "age": 30},
+                {"name": "Joshua Kimmich", "age": 28},
+                {"name": "Leroy Sane", "age": 27},
+                {"name": "Jamal Musiala", "age": 20},
+                {"name": "Thomas Muller", "age": 34},
+                {"name": "Alphonso Davies", "age": 22},
+                {"name": "Kim Min Jae", "age": 22}
+            ]
+        },
+        {
+            "name": "Borussia Dortmund",
+            "players": [
+                {"name": "Marco Reus", "age": 34},
+                {"name": "Julian Brandt", "age": 27},
+                {"name": "Emre Can", "age": 29},
+                {"name": "Niklas Sule", "age": 28},
+                {"name": "Karim Adeyemi", "age": 21},
+                {"name": "Sebastien Haller", "age": 29},
+                {"name": "Donyell Malen", "age": 24}
+            ]
+        },
+        {
+            "name": "Paris Saint Germain",
+            "players": [
+                {"name": "Kylian Mbappe", "age": 24},
+                {"name": "Ousmane Dembele", "age": 26},
+                {"name": "Marquinhos", "age": 29},
+                {"name": "Warren Zaire-Emery", "age": 17},
+                {"name": "Lucas Hernandez", "age": 27},
+                {"name": "Vitinha", "age": 23},
+                {"name": "Achraf Hakimi", "age": 26}
+            ]
+        },
+        {
+            "name": "Internazionale",
+            "players": [
+                {"name": "Lautaro Martinez", "age": 26},
+                {"name": "Marcus Thuram", "age": 26},
+                {"name": "Nicolo Barella", "age": 26},
+                {"name": "Alessandro Bastoni", "age": 24},
+                {"name": "Hakan Calhanoglu", "age": 29},
+                {"name": "Denzel Dumfries", "age": 27},
+                {"name": "Federico DiMarco", "age": 27}
+            ]
+        },
+        {
+            "name": "Milan",
+            "players": [
+                {"name": "Rafael Leao", "age": 24},
+                {"name": "Olivier Giroud", "age": 37},
+                {"name": "Theo Hernandez", "age": 26},
+                {"name": "Fikayo Tomori", "age": 25},
+                {"name": "Christian Pulisic", "age": 25},
+                {"name": "Ruben Loftus-Cheek", "age": 27},
+                {"name": "Tijjani Reijnders", "age": 26}
+            ]
+        },
+        {
+            "name": "Napoli",
+            "players": [
+                {"name": "Victor Osimhen", "age": 24},
+                {"name": "Khvicha Kvaratskhelia", "age": 22},
+                {"name": "Giovanni Di Lorenzo", "age": 30},
+                {"name": "Stanislav Lobotka", "age": 28},
+                {"name": "Piotr Zielinski", "age": 29},
+                {"name": "Andre-Frank Zambo Anguissa", "age": 27},
+                {"name": "Amir Rrahmani", "age": 31}
+            ]
+        },
+        {
+            "name": "Juventus",
+            "players": [
+                {"name": "Federico Chiesa", "age": 26},
+                {"name": "Dusan Vlahovic", "age": 23},
+                {"name": "Adrien Rabiot", "age": 28},
+                {"name": "Manuel Locatelli", "age": 25},
+                {"name": "Bremer", "age": 26},
+                {"name": "Danilo", "age": 32},
+                {"name": "Kephrem Thuram", "age": 26}
+            ]
+        },
+        {
+            "name": "Arsenal",
+            "players": [
+                {"name": "Bukayo Saka", "age": 22},
+                {"name": "Declan Rice", "age": 24},
+                {"name": "Martin Odegaard", "age": 24},
+                {"name": "Gabriel Jesus", "age": 26},
+                {"name": "Gabriel Martinelli", "age": 22},
+                {"name": "William Saliba", "age": 22},
+                {"name": "Gabriel Magalhaes", "age": 27}
+            ]
+        },
+        {
+            "name": "Liverpool",
+            "players": [
+                {"name": "Mohamed Salah", "age": 31},
+                {"name": "Virgil van Dijk", "age": 32},
+                {"name": "Ryan Gravenberch", "age": 23},
+                {"name": "Trent Alexander-Arnold", "age": 25},
+                {"name": "Darwin Nunez", "age": 24},
+                {"name": "Luis Diaz", "age": 26},
+                {"name": "Dominik Szoboszlai", "age": 23}
+            ]
+        },
+        {
+            "name": "Manchester City",
+            "players": [
+                {"name": "Erling Haaland", "age": 23},
+                {"name": "Kevin De Bruyne", "age": 32},
+                {"name": "Rodri", "age": 27},
+                {"name": "Phil Foden", "age": 23},
+                {"name": "Bernardo Silva", "age": 29},
+                {"name": "Ruben Dias", "age": 26},
+                {"name": "Jack Grealish", "age": 29}
+            ]
+        },
+        {
+            "name": "Manchester United",
+            "players": [
+                {"name": "Marcus Rashford", "age": 26},
+                {"name": "Bruno Fernandes", "age": 29},
+                {"name": "Casemiro", "age": 31},
+                {"name": "Mason Mount", "age": 24},
+                {"name": "Rasmus Hojlund", "age": 20},
+                {"name": "Lisandro Martinez", "age": 25},
+                {"name": "Raphael Varane", "age": 30}
+            ]
+        },
+        {
+            "name": "Chelsea",
+            "players": [
+                {"name": "Raheem Sterling", "age": 28},
+                {"name": "Enzo Fernandez", "age": 22},
+                {"name": "Moises Caicedo", "age": 22},
+                {"name": "Christopher Nkunku", "age": 26},
+                {"name": "Nicolas Jackson", "age": 22},
+                {"name": "Reece James", "age": 23},
+                {"name": "Mykhailo Mudryk", "age": 22}
+            ]
+        }
+    ]
+}
