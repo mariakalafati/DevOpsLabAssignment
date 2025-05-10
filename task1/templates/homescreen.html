@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Matches</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #1a472a;  /* Dark green like a football field */
+            color: white;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .match-list {
+            list-style: none;
+            padding: 0;
+            background: repeating-linear-gradient(
+                45deg,
+                #1a472a,
+                #1a472a 10px,
+                #153d23 10px,
+                #153d23 20px
+            );  /* Creating field stripes */
+        }
+        .match-item {
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s;
+            text-align: center;
+            position: relative;
+        }
+        .match-item:hover {
+            transform: scale(1.02);
+            background-color: #f0f0f0;
+        }
+        .match-item::before {
+            content: "⚽";
+            position: absolute;
+            left: 10px;
+        }
+        .match-date {
+            color: #666;
+            font-size: 0.9em;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Currently On</h1>
+    
+    <ul class="match-list">
+        {% for match in matches %}
+            <li class="match-item">
+                <a href="match/{{ match.match_id }}"> {{ match.team1 }} {{match.score}} {{ match.team2 }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
