@@ -32,6 +32,7 @@ This repository contains a very simple application for football match scores usi
 
 1. **Start your minikube cluster**
 
+   - You should run all minikube and kubectl commands from cmd
    - After that, ensure that everything is correct by running `kubectl get pods -A`
 
 2. **Create deployment.yaml file**
