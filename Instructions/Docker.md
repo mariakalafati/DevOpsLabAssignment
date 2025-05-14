@@ -18,7 +18,7 @@ The instructions are inspired by: https://youtu.be/bw-bMhlhcpg?si=q8gUtxmWBVMBNh
 - If not, type `wsl --install` and click enter
 
 ### Check Version of OS
-- Press the "windows key + r" and type `wiver` and press enter
+- Press the "windows key + r" and type `winver` and press enter
 - You are fine, if the Version is:
     * for Windows 11: 22H2 or higher
     * for Windows 10: 22H2 (build 19045) or higher
@@ -51,7 +51,7 @@ The instructions are inspired by: https://youtu.be/bw-bMhlhcpg?si=q8gUtxmWBVMBNh
 ## Create Dockerhub account
 - Visit [https://hub.docker.com/](https://hub.docker.com/)
 - Press `Sign up` if you do not have an account already
-- Suggest signing up with Github or Google (You should then sign in to Docker Desktop using that Docker Hub account)
+- We suggest signing up with Github or Google (You should then sign in to Docker Desktop using that Docker Hub account)
 
 ## Create a repository
 - Press `Create a repository`
