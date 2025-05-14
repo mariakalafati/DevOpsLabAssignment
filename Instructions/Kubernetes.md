@@ -1,5 +1,4 @@
-# 🐳 How to Install Kubernetes
-The instructions are inspired by: https://youtu.be/bw-bMhlhcpg?si=q8gUtxmWBVMBNhHm 
+# How to Install Kubernetes
 
 ## Install minikube
 - Visit [https://minikube.sigs.k8s.io/docs/start/?arch=%2Fwindows%2Fx86-64%2Fstable%2F.exe+download](https://minikube.sigs.k8s.io/docs/start/?arch=%2Fwindows%2Fx86-64%2Fstable%2F.exe+download)
