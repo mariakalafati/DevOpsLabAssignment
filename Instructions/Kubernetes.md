@@ -2,7 +2,7 @@
 The instructions are inspired by: https://youtu.be/bw-bMhlhcpg?si=q8gUtxmWBVMBNhHm 
 
 ## Install minikube
-- Visit `https://minikube.sigs.k8s.io/docs/start/?arch=%2Fwindows%2Fx86-64%2Fstable%2F.exe+download`
+- Visit [https://minikube.sigs.k8s.io/docs/start/?arch=%2Fwindows%2Fx86-64%2Fstable%2F.exe+download](https://minikube.sigs.k8s.io/docs/start/?arch=%2Fwindows%2Fx86-64%2Fstable%2F.exe+download)
 - Go to `Installation` and check:
     - Windows
     - x84-64
@@ -13,7 +13,7 @@ The instructions are inspired by: https://youtu.be/bw-bMhlhcpg?si=q8gUtxmWBVMBNh
 
 
 ## Install kubectl
-- Visit `https://kubernetes.io/releases/download/#binaries` 
+- Visit [https://kubernetes.io/releases/download/#binaries](https://kubernetes.io/releases/download/#binaries)
 - Find your Operating System (Windows) and Architecture (amd64) and download the "Download Binary"(kubectl.exe)
 
 

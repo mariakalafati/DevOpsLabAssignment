@@ -3,7 +3,7 @@ The instructions are inspired by: https://youtu.be/bw-bMhlhcpg?si=q8gUtxmWBVMBNh
 
 ## Install Docker Desktop
 
-- Visit `https://docs.docker.com/`
+- Visit [https://docs.docker.com/](https://docs.docker.com/)
 - Press `Get Docker` to navigate to this page `https://docs.docker.com/get-started/get-docker/`
 - Press `Docker Desktop for Windows`
 - Press the first option `Docker Desktop for Windows -x86_64`
@@ -49,9 +49,9 @@ The instructions are inspired by: https://youtu.be/bw-bMhlhcpg?si=q8gUtxmWBVMBNh
 # How to Set up Dockerhub
 
 ## Create Dockerhub account
-- Visit `https://hub.docker.com/`
+- Visit [https://hub.docker.com/](https://hub.docker.com/)
 - Press `Sign up` if you do not have an account already
-- Suggest signing up with Github or Google (You can then sign in to Docker Desktop using that Docker Hub account)
+- Suggest signing up with Github or Google (You should then sign in to Docker Desktop using that Docker Hub account)
 
 ## Create a repository
 - Press `Create a repository`
