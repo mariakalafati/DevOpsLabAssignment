@@ -14,16 +14,16 @@ This repository contains a very simple application for football match scores usi
 1. **Create Dockerfile**
 
    - Ensure that the file is placed in the root folder as it concerns the whole application.
-   - Make sure you add all files pf the project while maintaining the same structure as before (be careful in `templates` folder!).
+   - Make sure you add all files of the project while maintaining the same structure as before (be careful in `templates` folder!).
    - Also, make sure that the file includes all necessary information to create the docker image (pip install, cmd, expose).
 
 2. **Build Image**
 
-   - Make sure you give the image a name you can remember (add version as well).
+   - Make sure you give the image a name (add version as well).
 
 3. **Push Image**
 
-   - Push the image to your remote Dockerhub repository (this is necessary for the next task).
+   - Push the image to your remote Dockerhub repository (this is necessary for the next task) giving a name you can remember.
 
 
 ---
