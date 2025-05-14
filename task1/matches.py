@@ -46,4 +46,4 @@ def create_matches(num_matches):
 if __name__ == '__main__':
     global matches
     matches = create_matches(num_matches=10)
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=80, debug=True)
