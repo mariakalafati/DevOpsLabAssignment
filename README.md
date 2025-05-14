@@ -36,7 +36,7 @@ This repository contains a very simple application for football match scores usi
 
 2. **Create deployment.yaml file**
 
-Consider looking at this [example](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/).
+   Consider looking at this [example](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/).
    - Specify the name in the metadata field.
    - Select number of replicas (1 should do the trick).
    - Make sure you have the correct image from the Dockerhub repository.
@@ -44,7 +44,7 @@ Consider looking at this [example](https://kubernetes.io/docs/concepts/workloads
 
 3. **Create service.yaml file**
 
-Consider looking at this [example](https://www.geeksforgeeks.org/kubernetes-nodeport-service/).
+   Consider looking at this [example](https://www.geeksforgeeks.org/kubernetes-nodeport-service/).
    - Specify the name in the metadata field.
    - Be careful with the ports (make sure you remember them).
 
@@ -65,6 +65,6 @@ Create a Github repository and invite us as collaborators (ManolisPapa & Dionisi
 4. a file (.txt or README.md) with your Dockerhub repository (including name)
 5. 2 verification screenshots (as shown below): one showing the output from running your minikube service and one showing that the app is actually working
 
-
-
+![Output](./kubectl.png)
+![App](./app.png)
 And that's it! If you have any questions feel free to ask us, you can find us via email at t8220116@aueb.gr (Manolis) and t8220066@aueb.gr (Dionisia).
