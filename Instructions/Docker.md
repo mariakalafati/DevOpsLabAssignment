@@ -1,5 +1,5 @@
 # 🐳 How to Install Docker on Windows
-
+The instructions are inspired by: https://youtu.be/bw-bMhlhcpg?si=q8gUtxmWBVMBNhHm 
 
 ## Install Docker Desktop
 
@@ -44,3 +44,15 @@
 - Open "Docker Desktop"
 - Press `Accept`
 - Press `Skip` to the next 2 questions and wait...
+
+
+# How to Set up Dockerhub
+
+## Create Dockerhub account
+- Visit `https://hub.docker.com/`
+- Press `Sign up` if you do not have an account already
+- Suggest signing up with Github or Google (You can then sign in to Docker Desktop using that Docker Hub account)
+
+## Create a repository
+- Press `Create a repository`
+- Give it a name (e.g, devops) and make it public!!! (IMPORTANT so we can find it and assess you!)
