@@ -14,17 +14,20 @@ This repository contains a very simple application for football match scores usi
 1. **Create Dockerfile**
 
    - Ensure that the file is placed in the root folder as it concerns the whole application.
+   - Select base image (e.g python:3.12.10).
    - Make sure you add all files of the project while maintaining the same structure as before (be careful in `templates` folder!).
    - Also, make sure that the file includes all necessary information to create the docker image (pip install, cmd, expose).
 
 2. **Build Image**
 
    - Make sure you give the image a name (add version as well).
+   - Run `docker build -t <local-image-name>:<version> .` to build your image locally
 
 3. **Push Image**
 
    - Push the image to your remote Dockerhub repository (this is necessary for the next task) giving a name you can remember.
-
+   - Run `docker tag <local-image-name>:<version> <username>/<repository>:<remote-image-name>` to tag the image to your remote repository
+   - Run `docker push <username>/<repository>:<remote-image-name>` to push your image to your remote repository 
 
 ---
 
@@ -35,26 +38,29 @@ This repository contains a very simple application for football match scores usi
    - You should run all minikube and kubectl commands from cmd
    - After that, ensure that everything is correct by running `kubectl get pods -A`
 
-2. **Create deployment.yaml file**
+2. **Fill in deployment.yaml file**
 
    Consider looking at this [example](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/).
-   - Specify the name in the metadata field.
+   - Specify the deployment name in the metadata field.
+   - Specify the name for your app (e.g matches).
    - Select number of replicas (1 should do the trick).
    - Make sure you have the correct image from the Dockerhub repository.
 
-
-3. **Create service.yaml file**
+3. **Fill in service.yaml file**
 
    Consider looking at this [example](https://www.geeksforgeeks.org/kubernetes-nodeport-service/).
-   - Specify the name in the metadata field.
+   - Specify the name for your app (e.g matches).
+   - Specify the service name in the metadata field.
    - Be careful with the ports (make sure you remember them).
-
 
 4. **Apply your .yaml files**
 
+   - Run `kubectl apply -f <path-to-deployment.yaml>` (e.g .\task1\matches-deployment.yaml)
+   - Run `kubectl apply -f <path-to-service.yaml>` (e.g .\task1\matches-services.yaml)
+
 5. **Run your service**
 
-   - Run `minikube service` service-name(replace with yours)
+   - Run `minikube service <service-name>`
 
 
 ## Submission Instructions

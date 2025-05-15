@@ -7,8 +7,8 @@
     - x84-64
     - Stable
     - .exe download
-- In the sentence "Download and run the installer for the latest release." press the `latest release` and allow the downloaded file to open in order to start the set up
-- Follow the set up guidelines as indicated and wait...
+- In the sentence "Download and run the installer for the latest release." press the `latest release` and allow the downloaded file to open in order to start the set up.
+- Click on the minikube-installer.exe and finish the setup. If you get a warning message regarding security click `More Options` and `Run anyway`.
 
 
 ## Install kubectl
