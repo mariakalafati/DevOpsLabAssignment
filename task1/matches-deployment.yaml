@@ -1,20 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: <deployment-name>
+  name: matches-deployment   # Name deployment
 spec:
   selector:
     matchLabels:
-      app: <app-name>
-  replicas: <no-of-replicas> !use 1
+      app: matches           # Must match the label below
+  replicas: 1               # Only 1 replica (copy) of app
   template:
     metadata:
       labels:
-        app: <app-name>
+        app: matches        # Label for app
     spec:
       containers: 
-        - name: <app-name>
-          image: <username>/<repository>:<remote-image-name>
+        - name: matches     # Name of the container
+          image: mariakalafati/devops:1.0  # Docker Hub image
+          imagePullPolicy: Always
           ports:
-            - containerPort: 80
+            - containerPort: 80  # Port your app runs inside the container
   
