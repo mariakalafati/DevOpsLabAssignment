@@ -4,7 +4,7 @@ Repository for the DevOps lab assignment in Software Engineering in Practice cou
 
 ## DockerHub
 
-DockerHub repository: mariakalafati/devops (the repository is public) and the image is: image: mariakalafati/devops:1.0
+DockerHub repository: mariakalafati/devops (the repository is public), image: mariakalafati/devops:1.0
 
 ## Repository
 
